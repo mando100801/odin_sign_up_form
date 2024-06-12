@@ -28,6 +28,9 @@ div.left {
 div.right{
     flex: 2 1 0;
     border: 4px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo-container{
@@ -52,3 +55,14 @@ div.right{
     border: 4px solid blue;
 }
 
+.top{
+    border: 4px solid red;
+}
+
+.middle{
+    border: 4px solid red;
+}
+
+.bottom{
+    border: 4px solid red;
+}
